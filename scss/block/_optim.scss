@@ -1,0 +1,29 @@
+.optim{
+    min-height: 550px;
+    position: relative;
+    &__img{
+        position: absolute;
+        left: 150px;
+        top: 50px;
+        z-index: -1;
+    }
+    &__title{
+        margin-top: 103px;
+        font-size: 30px;
+        width: 743px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $main-blue;
+    }
+    &__descr{
+        margin-top: 25px;
+        text-align: justify;
+        font-size: 17px;
+        font-weight: 300;
+        color: #4a4a4a;
+        span{
+            font-weight: 700;
+        }
+    }
+
+}

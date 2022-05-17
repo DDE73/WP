@@ -1,0 +1,37 @@
+.fin{
+    min-height: 447px;
+    padding: 82px 0;
+    background: url(../img/bg/bg2.jpg) center center/cover no-repeat;
+    &__title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #efefef;
+    }
+    .row{
+        margin-top: 40px;
+    }
+    &__img{
+        width: 115px;
+        height: 115px;
+        margin: 0 auto;
+        background: $main-blue;
+        border-radius: 100%;
+        img{
+            top: 50%;
+            transform: translateY(-50%);
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &__descr{
+        margin-top: 25px;
+        text-align: center;
+        width: 200px;
+        font-size: 17px;
+        font-weight: 300;
+        color: #efefef;
+    }
+}

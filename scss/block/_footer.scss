@@ -1,0 +1,32 @@
+.foot{
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding-top: 61px;
+    &__first {
+        margin: 0 auto;
+        width: 377px;
+        color: #888888;
+        a {
+            font-size: 15px;
+            font-weight: 300;
+            color: #888888;
+           
+        }
+    }
+    &__tel{
+        display: block;
+        margin: 0 auto;
+        margin-top: 13px;
+        width: 377px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 300;
+        color: #888888;
+        &:hover{
+            color: #888888;
+        }
+        
+    }
+
+}

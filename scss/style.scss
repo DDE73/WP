@@ -1,0 +1,25 @@
+$main-blue:#299cbd;
+
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'block/promo';
+@import 'block/line';
+@import 'block/wait';
+@import 'block/optim';
+@import 'block/fin';
+@import 'block/gift';
+@import 'block/button';
+@import 'block/fw';
+@import 'block/footer';
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    line-height: 100%;
+
+}
+.container {
+    width: 1140px;
+}

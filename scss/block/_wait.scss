@@ -1,0 +1,28 @@
+.wait{
+    padding: 85px 0;
+    min-height: 604px;
+    &__title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #252525;
+    }
+    &__subtitle{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 23px;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .row{
+        margin-top: 48px;
+    }
+    .descr{
+        margin-top: 36px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300;
+        color: #4a4a4a;
+    }
+}

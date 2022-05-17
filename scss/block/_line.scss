@@ -1,0 +1,16 @@
+.line{
+    width: 217px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 17px;
+    background-color: #f9bf3b;
+    &_promo{
+        transform: translateY(60px);
+        height: 2px;
+        width: 279px;
+        background-color: #fff;
+        margin: none;
+        // align-self: center ; possible
+    }
+ 
+}
